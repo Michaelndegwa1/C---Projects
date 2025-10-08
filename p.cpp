@@ -1,21 +1,10 @@
-/* The code below will print the words Hello World and time i will take to learn C++!
-to the screen, and it is amazing */
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
-int peopleInRoom = 0;
-
-// 3 people enter
-peopleInRoom++;
-peopleInRoom++;
-peopleInRoom++;
-
-cout << peopleInRoom << "\n"; // 3
-
-// 1 person leaves
-peopleInRoom--;
-
-cout << peopleInRoom << "\n"; // 2
- 
-} 
+  cout << "Square root of 64 is: " << sqrt(64) << "\n";
+  cout << "Round 2.6 to the nearest integer: " << round(2.6) << "\n";
+  cout << "The natural logarithm of 2 is: " <<log(2) << "\n";
+  return 0;
+}

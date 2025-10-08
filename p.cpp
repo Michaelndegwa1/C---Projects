@@ -3,8 +3,14 @@
 using namespace std;
 
 int main() {
-  cout << "Square root of 64 is: " << sqrt(64) << "\n";
-  cout << "Round 2.6 to the nearest integer: " << round(2.6) << "\n";
-  cout << "The natural logarithm of 2 is: " <<log(2) << "\n";
+int myAge;
+int votingAge = 18;
+cout<< "Input you age:";
+cin >> myAge;
+if (myAge >= votingAge) {
+  cout << "Old enough to vote!";
+} else {
+  cout << "Not old enough to vote.";
+}
   return 0;
 }

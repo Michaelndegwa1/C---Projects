@@ -8,7 +8,9 @@ int main() {
   cout << "I am learning C++ in ";
   cout << 3+2; 
   cout << " Months" <<endl;
-  cout << "I am very happy ";
+  cout << "I am very happy for \n ";
+  int myNum = 15;
+cout << myNum; 
 
   return 0;
 } 

@@ -4,12 +4,18 @@ to the screen, and it is amazing */
 using namespace std;
 
 int main() {
- int x, y;
-int sum;
-cout << "Type a number: ";
-cin >> x;
-cout << "Type another number: ";
-cin >> y;
-sum = x + y;
-cout << "Sum is: " << sum; 
+int peopleInRoom = 0;
+
+// 3 people enter
+peopleInRoom++;
+peopleInRoom++;
+peopleInRoom++;
+
+cout << peopleInRoom << "\n"; // 3
+
+// 1 person leaves
+peopleInRoom--;
+
+cout << peopleInRoom << "\n"; // 2
+ 
 } 
